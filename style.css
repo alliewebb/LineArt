@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+}
+
+div {
+    font-family: 'Amatic SC';
+    font-weight: bold;
+    color: blueviolet;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}

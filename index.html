@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Line Art</title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <script src="project.js"></script>
+  </head>
+  
+  <body>
+    <form onsubmit="getInputValue(); drawLines(); return false"> 
+        <div>
+          <label for="draw">How Many Lines Shall We Draw?</label>
+          <input id="draw" type="number" name="number">
+        </div>
+        <div>
+          <input id="submit" type="submit" value="Draw lines!">
+        </div>
+    </form>
+    <div>
+        <canvas id="canvas" width="800px" height="800px"></canvas>
+      </div>
+  </body>
+</html>
